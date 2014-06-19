@@ -1,0 +1,17 @@
+[
+    {
+        "id": "snowtooth",
+        "url": "/images/snowtooth.jpg",
+        "text": "Get some snow in those teeth."
+    },
+    {
+        "id": "snowface",
+        "url": "/images/snowface.jpg",
+        "text": "Snowface Music Festival, tickets on sale now!"
+    },
+    {
+        "id": "bigmountia",
+        "url": "/images/bigmountain.jpg",
+        "text": "We're hosting the Big Mountain Finals."
+    }
+]

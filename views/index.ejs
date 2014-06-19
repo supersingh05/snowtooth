@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <%= include templates/head %>
+</head>
+<body>
+    <%= include templates/nav %>
+
+    <section id="mainsection">
+        <h1><%= title %></h1>
+        <% for(var i = 0; i < data.length; i++){ %>
+        <div id="<%= data[i].id %>">
+            <img class="mainsection-img" src="<%= data[i].url %>" alt=""/>
+            <div class="mainsection-text"><%= data[i].text %></div>
+        </div>
+        <% } %>
+    </section>
+
+    <%= include templates/footer %>
+</body>
+</html>

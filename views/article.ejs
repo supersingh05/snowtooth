@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <%= include templates/head %>
+</head>
+<body>
+    <%= include templates/nav %>
+
+    <article class="news-article">
+        <h1 class="title"><%= title %></h1>
+        <div class="author">
+            By <span class="name"><%= author %></span>
+        </div>
+        <div class="time">
+            <%= date %>
+        </div>
+        <img src="<%= img %>" alt="" />
+
+        <div class="content">
+            <%- content %>
+        </div>
+
+    </article>
+
+    <%= include templates/footer %>
+</body>
+</html>

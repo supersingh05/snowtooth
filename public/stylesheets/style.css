@@ -1,0 +1,90 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #324fe1;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+#mainsection .news-item .img-container {
+    float: left;
+}
+#mainsection .news-item {
+    border-bottom: 1px solid #f2f2f5;
+}
+article:first-child {
+    border-bottom: 1px solid #f2f2f5;
+    border-top: 1px solid #f2f2f5;
+}
+#mainsection .news-item .content {
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    height: 170px;
+}
+#mainsection .news-item .content h2 {
+    margin-top: 10px;
+}
+#mainsection .news-item .content .info{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+#mainsection .news-item .content .info .author {
+    color: #1e7d8e;
+    font-size: 11px;
+}
+#mainsection .news-item .content .info .read-more {
+    float: right;
+}
+#mainsection .news-item .clear {
+    clear: both;
+}
+#mainsection .event-item .img-container {
+    float: left;
+}
+#mainsection .event-item {
+    border-bottom: 1px solid #f2f2f5;
+}
+article:first-child {
+    border-bottom: 1px solid #f2f2f5;
+    border-top: 1px solid #f2f2f5;
+}
+#mainsection .event-item .content {
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    height: 124px;
+}
+#mainsection .event-item .content h2 {
+    margin-top: 10px;
+}
+#mainsection .event-item .content .info{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+#mainsection .event-item .content .info .author {
+    color: #1e7d8e;
+    font-size: 11px;
+}
+#mainsection .event-item .content .info .read-more {
+    float: right;
+}
+#mainsection .event-item .clear {
+    clear: both;
+}
+.news-article img {
+    width: 60%;
+}
+.news-article .author .name {
+    font-weight: bold;
+}
+.news-article .clear {
+    clear: both;
+}
